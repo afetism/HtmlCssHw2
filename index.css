@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.logo img
+{
+    height: 100px;
+    
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.nav-lists
+{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+
+.nav-lists li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
